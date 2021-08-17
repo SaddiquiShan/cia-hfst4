@@ -32,7 +32,7 @@ jobs:
       - name: Try to build my code
         run: dotnet build
         
-      - run:Run unit tests on my code
+      - name: Run unit tests on my code
         run: dotnet test -v n
 
       # Runs a single command using the runners shell
